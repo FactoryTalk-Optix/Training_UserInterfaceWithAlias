@@ -1,0 +1,51 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: MotorType
+  Id: g=f227e27c6b408273d199802d5118dd05
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+- Name: Motor1
+  Id: g=20fb8c6d2c98d1ca19732de248d506b2
+  Type: MotorType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 75
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 100
+- Name: Motor2
+  Id: g=5baa005ba9222d5ed4603f09fd5cd5cb
+  Type: MotorType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 25
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 50
+- Name: Motor3
+  Id: g=f5dcab2967e758892f17ef6bc4003aa4
+  Type: MotorType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 50
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 25
